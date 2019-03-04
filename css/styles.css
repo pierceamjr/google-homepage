@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 200px 500px 1fr;
     grid-template-columns: 15% 1fr 15%;
 }
 
@@ -15,7 +15,7 @@ text-align: center;
 }
 
 .search-bar {
-    width: 40%;
+    width: 50%;
     margin-bottom: 30px;
 }
 
@@ -25,4 +25,20 @@ text-align: center;
 
 .logo {
     margin-bottom: 20px;
+}
+
+.cell-7, .cell-8, .cell-9 {
+    background-color: lightgray;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
