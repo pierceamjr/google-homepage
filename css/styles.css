@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 15% 1fr 15%;
+}
+
+
+
+.cell-5 {
+text-align: center;
+}
+
+.cell-3 {
+    text-align: left;
+}
+
+.search-bar {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.search-button {
+    margin: 0 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
